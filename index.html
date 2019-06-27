@@ -1,34 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Bootstrap Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    
-    <nav class="container">
-        <ul class="nav row justify-content-between">
-            <li class="nav-item col-3">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Peter Geyser</a>
-            </li>
-                <div class="col-3">
-                    <div class="row">    
-                        <li class="nav-item col-4">
-                        <a class="nav-link" href="index.html">About</a>
-                        </li>
-                        <li class="nav-item col-4">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item col-4">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
+    <nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-3 text-center port-nav-name">
+                    <h1>Peter Geyser</h1>
+                </div>
+                <div class="col-md-12 col-lg-3 offset-lg-6">
+                    <div class="row port-nav-links">
+                        <a href=index.html class="col-4 text-center port-nav-about">About</a>
+                        <a href=portfolio.html class="col-4 text-center port-nav-port">Portfolio</a>
+                        <a href=contact.html class="col-4 text-center">Contact</a>
                     </div>
                 </div>
-        </ul>
+            </div>
+        </div>
     </nav>
-
 </body>
+
 </html>
