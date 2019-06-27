@@ -1,0 +1,34 @@
+p, a {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: 'Georgia', Times, serif;
+  font-size: 30px;
+}
+
+nav {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #cccccc;
+}
+
+.port-nav-name {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.port-nav-links {
+  margin-top: 25.5px;
+  margin-bottom: 25.5px;
+}
+
+.port-nav-about, .port-nav-port {
+  border-right-color: #adadad;
+  border-right-style: solid;
+  border-right-width: 1px;
+}
