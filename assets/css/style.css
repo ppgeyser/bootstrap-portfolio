@@ -83,7 +83,7 @@ h2 {
 .port-pic {
   float: left;
   width: 30%;
-  padding: 20px;
+  margin: 25px;
   position: relative;
   text-align: center;
   color: white;
