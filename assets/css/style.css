@@ -28,19 +28,19 @@ nav {
   border-bottom-color: #cccccc;
 }
 
-.port-nav-name {
+.nav-name {
   background-color: #4aaaa5;
   color: #ffffff;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
-.port-nav-links {
+.nav-links {
   margin-top: 25.5px;
   margin-bottom: 25.5px;
 }
 
-.port-nav-about, .port-nav-port {
+.nav-about, .nav-port {
   border-right-color: #adadad;
   border-right-style: solid;
   border-right-width: 1px;
