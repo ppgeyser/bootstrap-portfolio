@@ -7,6 +7,13 @@ p, a {
 h1 {
   font-family: 'Georgia', Times, serif;
   font-size: 30px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: 'Georgia', Times, serif;
+  font-weight: bold;
 }
 
 nav {
@@ -31,4 +38,24 @@ nav {
   border-right-color: #adadad;
   border-right-style: solid;
   border-right-width: 1px;
+}
+
+.background {
+  background-image: url("../images/noise_lines.png");
+  background-repeat: repeat;
+  height: auto;
+  padding-top: 100px;
+}
+
+.content {
+  background-color: #ffffff;
+}
+
+.subheading {
+  color: #4aaaa5;
+  padding: 28px 12px;
+  margin: 20px;
+  border-bottom-color: #adadad;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
 }
