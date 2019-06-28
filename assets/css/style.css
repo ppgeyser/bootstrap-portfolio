@@ -71,6 +71,25 @@ h2 {
   margin-bottom: 10px;
 }
 
+.port-img-text {
+  position: absolute;
+  width: 75.111%;
+  padding: 20px;
+  bottom: 30px;
+  margin: auto;
+  background-color: #4aaaa5;
+}
+
+.port-pic {
+  float: left;
+  width: 30%;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
 footer {
   height: 10vh;
   border-width: 8px; 
