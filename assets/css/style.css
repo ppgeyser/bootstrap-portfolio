@@ -1,7 +1,13 @@
-p, a {
+p{
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: #777777;
   font-size: 16px;
+  margin-left: 20px;
+}
+
+a{
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
 }
 
 h1 {
@@ -44,11 +50,13 @@ nav {
   background-image: url("../images/noise_lines.png");
   background-repeat: repeat;
   height: auto;
-  padding-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 60px;
 }
 
 .content {
   background-color: #ffffff;
+  margin: auto;
 }
 
 .subheading {
@@ -59,3 +67,25 @@ nav {
   border-bottom-style: solid;
   border-bottom-width: 2px;
 }
+
+.profile-photo {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+footer {
+  height: auto;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  border-width: 8px; 
+  border-top-style: solid; 
+  border-top-color: #4aaaa5;
+  background-color: #666666;
+  }
+
+  .copyright {
+    color: #ffffff;
+    padding-top: 25px;
+  }
