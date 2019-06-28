@@ -1,11 +1,11 @@
-p{
+p {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: #777777;
   font-size: 16px;
   margin-left: 20px;
 }
 
-a{
+a {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: #777777;
 }
@@ -22,12 +22,6 @@ h2 {
   font-weight: bold;
 }
 
-nav {
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #cccccc;
-}
-
 .nav-name {
   background-color: #4aaaa5;
   color: #ffffff;
@@ -40,23 +34,26 @@ nav {
   margin-bottom: 25.5px;
 }
 
-.nav-about, .nav-port {
+.nav-about,
+.nav-port {
   border-right-color: #adadad;
   border-right-style: solid;
   border-right-width: 1px;
 }
 
 .background {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #cccccc;
   background-image: url("../images/noise_lines.png");
   background-repeat: repeat;
+  padding: 7vh;
   height: auto;
-  padding-top: 50px;
-  padding-bottom: 60px;
+  overflow: hidden;
 }
 
 .content {
   background-color: #ffffff;
-  margin: auto;
 }
 
 .subheading {
@@ -75,17 +72,14 @@ nav {
 }
 
 footer {
-  height: auto;
-  position: relative;
-  bottom: 0px;
-  width: 100%;
+  height: 10vh;
   border-width: 8px; 
   border-top-style: solid; 
   border-top-color: #4aaaa5;
   background-color: #666666;
   }
 
-  .copyright {
-    color: #ffffff;
-    padding-top: 25px;
+  .copyright-text {
+    color: white;
+    padding-top: 4vh;
   }
