@@ -47,7 +47,10 @@ h2 {
   border-top-color: #cccccc;
   background-image: url("../images/noise_lines.png");
   background-repeat: repeat;
-  padding: 7vh;
+  padding-right: 3vh;
+  padding-left: 3vh;
+  padding-bottom: 25vh;
+  padding-top: 10vh;
   height: auto;
   overflow: hidden;
 }
@@ -71,23 +74,23 @@ h2 {
   margin-bottom: 10px;
 }
 
-.port-img-text {
-  position: absolute;
-  width: 75.111%;
-  padding: 20px;
-  bottom: 30px;
-  margin: auto;
-  background-color: #4aaaa5;
+.figure {
+  margin: 0px 35px 20px 35px;
+  position: relative;
 }
 
-.port-pic {
-  float: left;
-  width: 30%;
-  margin: 25px;
-  position: relative;
-  text-align: center;
+.figure-img {
+  margin-bottom: 0;
+}
+
+.figure-caption {
+  position: absolute;
+  width: 100%;
   color: white;
   font-family: 'Georgia', 'Times New Roman', serif;
+  padding: 20px;
+  bottom: 10px;
+  background-color: #4aaaa5;
 }
 
 footer {
