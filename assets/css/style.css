@@ -41,7 +41,7 @@ h2 {
   border-right-width: 1px;
 }
 
-.background {
+.background-about {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #cccccc;
@@ -50,10 +50,25 @@ h2 {
   padding-right: 3vh;
   padding-left: 3vh;
   padding-bottom: 25vh;
-  padding-top: 10vh;
+  padding-top: 11vh;
   height: auto;
   overflow: hidden;
 }
+
+.background-portfolio, .background-contact {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #cccccc;
+  background-image: url("../images/noise_lines.png");
+  background-repeat: repeat;
+  padding-right: 3vh;
+  padding-left: 3vh;
+  padding-bottom: 13vh;
+  padding-top: 11vh;
+  height: auto;
+  overflow: hidden;
+}
+
 
 .content {
   background-color: #ffffff;
@@ -91,6 +106,10 @@ h2 {
   padding: 20px;
   bottom: 10px;
   background-color: #4aaaa5;
+}
+
+form {
+  margin: 0px 20px 20px 20px;
 }
 
 footer {
