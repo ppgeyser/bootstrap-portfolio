@@ -55,7 +55,8 @@ h2 {
   overflow: hidden;
 }
 
-.background-portfolio, .background-contact {
+.background-portfolio,
+.background-contact {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #cccccc;
@@ -112,15 +113,24 @@ form {
   margin: 0px 20px 20px 20px;
 }
 
+.submit-btn {
+  background-color: #4aaaa5;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 footer {
   height: 10vh;
-  border-width: 8px; 
-  border-top-style: solid; 
+  border-width: 8px;
+  border-top-style: solid;
   border-top-color: #4aaaa5;
   background-color: #666666;
-  }
+}
 
-  .copyright-text {
-    color: white;
-    padding-top: 4vh;
-  }
+.copyright-text {
+  color: white;
+  padding-top: 4vh;
+}
